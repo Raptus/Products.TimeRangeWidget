@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '2.0b2'
+version = '2.0b3'
 
 setup(name='Products.TimeRangeWidget',
       version=version,
@@ -21,7 +21,7 @@ setup(name='Products.TimeRangeWidget',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['Products'],
       include_package_data=True,
-      zip_safe=True,
+      zip_safe=False,
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
